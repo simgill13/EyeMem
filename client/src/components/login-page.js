@@ -24,21 +24,21 @@ class LoginPage extends React.Component {
 				)};
 			}
 			var hello = [
-				'Hello.',
-				'Aloha.',
-				'Bonjour.',
 				'Hola.',
-				'Hallo.',
-				'Ciao.',
-				'Bonghjornu.',
-				'Ahoj.',
-				'Dia dhuit.',
-				'Moni.',
-				'Pẹlẹ o.',
-				'Salam.',
-				'Sveiki.',
-				'Zdravo.',
-				'Բարեւ.'
+				'Buenos días.',
+				'¿Cómo está?.',
+				'Buenas tardes.',
+				'¿Cómo estás?.',
+				'casa.',
+				'Si.',
+				'Gracías.',
+				'Salud.',
+				'Por favor.',
+				'Adiós.',
+				'bien.',
+				'Mucho gusto.',
+				'Hola.',
+				'casa.'
 			]
 		});
 	}

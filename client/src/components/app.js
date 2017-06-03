@@ -5,6 +5,7 @@ import $ from 'jquery';
 import QuestionPage from './question-page';
 import LoginPage from './login-page';
 import Nav from './nav';
+import Footer from './footer';
 import {matchGoogleToken, gettingQuestions} from '../actions/action';
 
 class App extends React.Component {
@@ -43,7 +44,13 @@ class App extends React.Component {
                 <br/>
                 <br/>
                 <br/>
-                {checkQuestionsArray}            
+                {checkQuestionsArray}  
+                <br/>
+                <br/>
+                <br/>
+                <footer>
+                    <Footer/>
+                </footer>
             </div>
         );
     }

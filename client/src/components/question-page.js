@@ -81,6 +81,7 @@ class QuestionPage extends React.Component {
                     <p className="english">English</p>
                     <form id="form" onSubmit={e => this.SubmitClick(e)}>
                         <input type="text" id="input_text" placeholder="Answer Here" name="userInput" required/>
+                        <i class="fa fa-telegram" aria-hidden="true"></i>
                         <input type="submit" className="userSubmit"/>
                     </form>
                 </div>

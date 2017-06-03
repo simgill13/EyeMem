@@ -12,7 +12,7 @@ height: 100vh;
 width: 100%;
 position: relative;
 background: linear-gradient(23deg, #c2e59c , #64b3f4);
-overflow: hidden;
+
 font-family: 'Raleway', sans-serif;
 }
 
@@ -114,7 +114,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .Nav{
-	background-color: white;
+	background-color: #3B3B3B;
 	border: solid #E2E2E2 2px;
 	text-align: right;
 	height: 5em;
@@ -193,10 +193,14 @@ font-family: 'Raleway', sans-serif;
 }
 
 .logout {
-	appearance: button;
+	
+	margin-left: 19px;
+	margin-right: 10px;
+	color: white;
 	text-decoration: none;
 	width: 70px;
 	text-align: center;
+	background: none;
 }
 
 .correct, .incorrect {
@@ -205,6 +209,7 @@ font-family: 'Raleway', sans-serif;
 
 .title {
 	font-size: 1.6em;
+	color:white;
 }
 
 .tagline {
@@ -222,5 +227,14 @@ font-family: 'Raleway', sans-serif;
 	text-align: center;
 	margin-left: 5px;
 }
-
-
+.div1{
+	margin-top: 50px;
+	display: inline-block;
+}
+.Nav2 {
+    background-color: #3B3B3B;
+    border: solid #E2E2E2 2px;
+    text-align: right;
+    height: 10em;
+    width: 100%;
+}

@@ -132,21 +132,6 @@ app.put('/api/users/:googleId/questions', (req, res) => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 app.put('/api/users/:googleId/questions/memoryValue', (req, res) => {
     console.log('BEFORE DB',req.body.i)
   User
@@ -321,72 +306,6 @@ app.get('/api/questions',
             }
         })
     });
-
-
-
-
-
-
-
-
-
-
-//   app.put('/api/user/inc/:googleid/:indexval', (req, res) => {
-  
-
-//     let memoryValue = req.body.memoryValue;
-//     let indexVal = req.params.indexval;
-  
-//     User
-//         .findOne({googleId: req.params.googleid})
-//         .exec()
-//         .then(user => {
-//             user.usersQuestions[indexval].memoryValue *=2
-//             return user.save()
-//         })
-//         .then(user => {
-//             console.log(user)
-//         })
-// })
-
-//  app.put('/api/user/dec/:googleid/:indexval', (req, res) => {
-  
-
-//     let memoryValue = req.body.memoryValue;
-//     let indexVal = req.params.indexval;
-  
-//     User
-//         .findOne({googleId: req.params.googleid})
-//         .exec()
-//         .then(user => {
-//             user.usersQuestions[indexval].memoryValue =1
-//             return user.save()
-//         })
-//         .then(user => {
-//             console.log(user)
-//         })
-// })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

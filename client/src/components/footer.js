@@ -1,29 +1,25 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import $ from 'jquery';
-var FontAwesome = require('react-fontawesome');
+import FontAwesome from 'react-fontawesome';
 
-class Nav extends React.Component {
+class Footer extends React.Component {
 	constructor(props) {
 		super(props);
 	}
     render() { 
         return (
-        	<div className="Nav"> 
+        	<div className="Nav2"> 
                 <div className="imgicon">
-                <FontAwesome
-        className='super-crazy-colors'
-        name='rocket'
-        size='2x'
-        spin
-        style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-      />
+                <p>  <FontAwesome className='fa fa-envelope-square' size='3x' aria-hidden='true'/> </p>
+                <FontAwesome className='fa fa-envelope-square' size='3x' aria-hidden='true'/>
+              <FontAwesome className='fa fa-facebook-square' size='3x' aria-hidden='true'/>
                 </div>      		
         		<div className=" div1">
-        			<h1 className="title"> {this.props.displayName} </h1>	 
+        			 
         		</div>
                 <div className="div1">
-                <a className="logout" href={'/api/auth/logout'}>logout</a>
+              
                 </div>
         	</div>
         );
@@ -35,4 +31,4 @@ const mapStateToProps = (state) => ({
 	currentUser: state.currentUser,
 });
 
-export default connect(mapStateToProps)(Nav);
+export default connect(mapStateToProps)(Footer);
