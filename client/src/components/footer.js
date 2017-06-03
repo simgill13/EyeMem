@@ -10,17 +10,16 @@ class Footer extends React.Component {
     render() { 
         return (
         	<div className="Nav2"> 
-                <div className="imgicon">
-                <p>  <FontAwesome className='fa fa-envelope-square' size='3x' aria-hidden='true'/> </p>
-                <FontAwesome className='fa fa-envelope-square' size='3x' aria-hidden='true'/>
-              <FontAwesome className='fa fa-facebook-square' size='3x' aria-hidden='true'/>
-                </div>      		
-        		<div className=" div1">
-        			 
-        		</div>
-                <div className="div1">
-              
+                <div className="imgicon2">
+                    <a target="_blank" className="logout" href="https://github.com/simgill13/EyeMem"><FontAwesome className='fa fa-github github footicncolor' size='2x' aria-hidden='true'/></a>
+                    <a target="_blank" className="logout" href="https://www.linkedin.com/in/simran-gill-15687413a/"><FontAwesome className='fa fa-linkedin-square linkedin footicncolor' size='2x' aria-hidden='true'/></a>
+                </div> 
+                <div className='textdiv'>
+                    <p className='text'>
+                        <FontAwesome className='fa fa-info-circle' size='1x' aria-hidden='true'/> Sole intention of this application is to display the use of a Spaced-Repetition algorithm.
+                    </p>
                 </div>
+
         	</div>
         );
     }

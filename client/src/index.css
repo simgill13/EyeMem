@@ -232,9 +232,38 @@ font-family: 'Raleway', sans-serif;
 	display: inline-block;
 }
 .Nav2 {
+
     background-color: #3B3B3B;
     border: solid #E2E2E2 2px;
-    text-align: right;
+    text-align: center;
     height: 10em;
     width: 100%;
 }
+.imgicon2{
+	margin-top: 60px;
+	    color: darkgrey;
+	  
+}
+
+.github{
+	
+	padding-bottom: 10px;
+}
+
+
+
+.textdiv{
+	margin-left: 30%; 
+	color: white;
+	font-size: 12px;
+	
+	width: 500px;
+}
+
+
+
+
+
+
+
+

@@ -88,7 +88,7 @@ app.get('/api/auth/google/callback',
 
 
 app.post('/api/user', (req, res) => {
-  console.log(req.body);
+ 
   User
   .create({
     displayName: req.body.displayName,
@@ -113,7 +113,7 @@ app.post('/api/user', (req, res) => {
 
 
 app.put('/api/users/:googleId/questions', (req, res) => {
-    console.log(req.body)
+    
  
   User
   .findOneAndUpdate({googleId: req.params.googleId},{$set:{usersQuestions:req.body}})
@@ -133,7 +133,7 @@ app.put('/api/users/:googleId/questions', (req, res) => {
 
 
 app.put('/api/users/:googleId/questions/memoryValue', (req, res) => {
-    console.log('BEFORE DB',req.body.i)
+   
   User
   .findOne({googleId: req.params.googleId})
   .exec()
@@ -150,7 +150,7 @@ app.put('/api/users/:googleId/questions/memoryValue', (req, res) => {
 });
 
 app.put('/api/users/:googleId/questions/memoryValue/decreasing', (req, res) => {
-    console.log('BEFORE DB',req.body.i)
+   
   User
   .findOne({googleId: req.params.googleId})
   .exec()
