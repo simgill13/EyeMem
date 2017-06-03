@@ -18,7 +18,7 @@
     "server/node_modules",
     "client/node_modules"
   ],
-  "author": "Joe Turner <jturner@thinkful.com>",
+  "author": "Jd",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.17.1",
